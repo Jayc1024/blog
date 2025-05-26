@@ -11,7 +11,7 @@
 - Multiple themes
 
 [Get Started](#docsify)
-[GitHub](https://github.com/docsifyjs/docsify/)
+[GitHub](https://jayc1024.github.io/blog/)
 
 <!-- ![color](#f0f0f0) -->
 <!-- ![](/_media/icon.svg) -->
