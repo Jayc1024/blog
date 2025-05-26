@@ -2,7 +2,7 @@
 
 - Getting started
 
-  - [Quick start](quickstart.md)
+  - [Quick start](test.md)
   - [Adding pages](adding-pages.md)
   - [Cover page](cover.md)
   - [Custom navbar](custom-navbar.md)
