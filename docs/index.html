@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify/themes/vue.css">
   <!-- Prism.js CSS for code highlighting -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs/themes/prism.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs/themes/prism-tomorrow.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs/plugins/line-numbers/prism-line-numbers.css">
 </head>
 <body>
@@ -22,11 +21,18 @@
 
 <script>
   window.$docsify = {
-    name: '我的博客', // 网站名称
-    repo: 'https://jayc1024.github.io/blog/', // GitHub 仓库地址
-    loadSidebar: true, // 启用侧边栏
-    subMaxLevel: 2, // 侧边栏显示的标题层级
-    coverpage: true, // 启用封面页
-    auto2top: true // 切换页面时自动滚动到顶部
-  }
+    name: '我的博客',
+    repo: 'https://jayc1024.github.io/blog/',
+    loadSidebar: true,
+    subMaxLevel: 2,
+    coverpage: true,
+    auto2top: true,
+    markdown: {
+      renderer: {
+        code: function(code, lang) {
+          return `<pre class="line-numbers language-${lang}"><code>${code}</code></pre>`;
+        }
+      }
+    }
+  };
 </script>
