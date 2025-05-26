@@ -3,7 +3,7 @@
 - Getting started
 
   - [Quick start](test.md)
-  - [Adding pages](draft.md)
+  - [Draft pages](draft.md)
   - [Cover page](cover.md)
   - [Custom navbar](custom-navbar.md)
 
